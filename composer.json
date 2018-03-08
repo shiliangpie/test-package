@@ -1,0 +1,24 @@
+{
+    "name": "shiliangpie/test-package",
+    "description": "this is a test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tanbin",
+            "email": "1370808424@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Shiliangpie\\TestPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shiliangpie\\TestPackage\\Tests\\": "tests/"
+        }
+    }
+}
